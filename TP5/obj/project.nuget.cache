@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zcBH6O0sTuw=",
+  "dgSpecHash": "7VVKNb3kf6I=",
   "success": true,
-  "projectFilePath": "C:\\Users\\fedea\\OneDrive\\Escritorio\\Nueva carpeta\\tl2-tp5-2024-ElZorroAs\\TP5\\TP5.csproj",
+  "projectFilePath": "c:\\Users\\fedea\\OneDrive\\Escritorio\\Nueva carpeta\\tl2-tp5-2024-ElZorroAs\\TP5\\TP5.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fedea\\.nuget\\packages\\microsoft.data.sqlite\\8.0.10\\microsoft.data.sqlite.8.0.10.nupkg.sha512",
     "C:\\Users\\fedea\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.10\\microsoft.data.sqlite.core.8.0.10.nupkg.sha512",
