@@ -1,22 +1,24 @@
+/*Productos
+○ int idProducto
+○ string descripcion
+○ int precio*/
 using System;
-
-namespace TP5.Models;
-/*
-● Productos
-    ○ int idProducto
-    ○ string descripcion
-    ○ int precio
-*/
+using System.Text.Json.Serialization;
+namespace EspacioTp5;
 public class Productos
 {
+    
     public Productos(int idProducto, string descripcion, int precio)
     {
-        this.idProducto = idProducto;
-        this.descripcion = descripcion;
-        this.precio = precio;
+        IdProducto = idProducto;
+        Descripcion = descripcion;
+        Precio = precio;
     }
+    [JsonPropertyName("idProducto")]
+    public int IdProducto {get;private set;}
+    [JsonPropertyName("descripcion")]
+    public string Descripcion{get;private set;}
+    [JsonPropertyName("precio")]
+    public int Precio {get;private set;}
 
-    public int idProducto{get;private set;}
-    public string descripcion{get;private set;}
-    public int precio{get;private set;}
 }

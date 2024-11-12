@@ -741,19 +741,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ElZorroAs\\.nuget\\packages\\": {}
+    "C:\\Users\\fedea\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ElZorroAs\\Desktop\\Taller2Proyecto\\tl2-tp5-2024-ElZorroAs\\TP5\\TP5.csproj",
+      "projectUniqueName": "C:\\Users\\fedea\\OneDrive\\Escritorio\\Nueva carpeta\\tl2-tp5-2024-ElZorroAs\\TP5\\TP5.csproj",
       "projectName": "TP5",
-      "projectPath": "C:\\Users\\ElZorroAs\\Desktop\\Taller2Proyecto\\tl2-tp5-2024-ElZorroAs\\TP5\\TP5.csproj",
-      "packagesPath": "C:\\Users\\ElZorroAs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ElZorroAs\\Desktop\\Taller2Proyecto\\tl2-tp5-2024-ElZorroAs\\TP5\\obj\\",
+      "projectPath": "C:\\Users\\fedea\\OneDrive\\Escritorio\\Nueva carpeta\\tl2-tp5-2024-ElZorroAs\\TP5\\TP5.csproj",
+      "packagesPath": "C:\\Users\\fedea\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\fedea\\OneDrive\\Escritorio\\Nueva carpeta\\tl2-tp5-2024-ElZorroAs\\TP5\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ElZorroAs\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\fedea\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -810,7 +810,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

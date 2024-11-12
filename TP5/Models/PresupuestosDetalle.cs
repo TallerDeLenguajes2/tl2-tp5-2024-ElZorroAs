@@ -1,20 +1,22 @@
-using System;
-
-namespace TP5.Models;
 /*
-● PresupuestosDetalle
-    ○ Productos producto
-    ○ int cantidad
+PresupuestosDetalle
+○ Productos producto
+○ int cantidad
 */
+using System;
+using System.Text.Json.Serialization;
+namespace EspacioTp5;
+
 public class PresupuestosDetalle
 {
+    
     public PresupuestosDetalle(Productos producto, int cantidad)
     {
-        this.producto = producto;
-        this.cantidad = cantidad;
+        Producto = producto;
+        Cantidad = cantidad;
     }
-
-    public Productos producto{get;private set;}
-    public int cantidad{get;private set;}
-    
+    [JsonPropertyName("producto")]
+    public Productos Producto {get;private set;}
+    [JsonPropertyName("cantidad")]
+    public int Cantidad{get;private set;}
 }
